@@ -9,14 +9,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ControleDeMedicamentos.WebApp.Controllers;
 
-public class RequisicaoMedicamentoController : Controller
+public class MedicationRequestController : Controller
 {
     private readonly ContextoDados contexto;
     private readonly RepositorioRequisicaoMedicamentoEmArquivo repositorioRequisicaoMedicamento;
     private readonly RepositorioMedicamentoEmArquivo repositorioMedicamento;
     private readonly RepositorioFuncionarioEmArquivo repositorioFuncionario;
 
-    public RequisicaoMedicamentoController(
+    public MedicationRequestController(
         ContextoDados contexto,
         RepositorioRequisicaoMedicamentoEmArquivo repositorioRequisicaoMedicamento,
         RepositorioMedicamentoEmArquivo repositorioMedicamento,

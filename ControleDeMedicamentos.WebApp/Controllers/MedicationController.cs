@@ -6,12 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ControleDeMedicamentos.WebApp.Controllers;
 
-public class MedicamentoController : Controller
+public class MedicationController : Controller
 {
     private readonly RepositorioMedicamentoEmArquivo repositorioMedicamento;
     private readonly RepositorioFornecedorEmArquivo repositorioFornecedor;
 
-    public MedicamentoController(
+    public MedicationController(
         RepositorioMedicamentoEmArquivo repositorioMedicamento,
         RepositorioFornecedorEmArquivo repositorioFornecedor
     )

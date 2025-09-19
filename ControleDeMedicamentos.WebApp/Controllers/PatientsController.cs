@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ControleDeMedicamentos.WebApp.Controllers;
 
-public class PacienteController : Controller
+public class PatientsController : Controller
 {
     private readonly RepositorioPacienteEmArquivo repositorioPaciente;
 
-    public PacienteController(RepositorioPacienteEmArquivo repositorioPaciente)
+    public PatientsController(RepositorioPacienteEmArquivo repositorioPaciente)
     {
         this.repositorioPaciente = repositorioPaciente;
     }
